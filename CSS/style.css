@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/*Variblies*/
+:root{
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+  --Font-size: 14px;
+}
+
+/*Fonts as Classes*/
+.inter-400 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+}
+.inter-600 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+}
+.inter-700 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+}
+
+/*Global Rules*/
+*{
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/*Styling*/
+a,h2,p{
+  color: var(--White);
+}
+
+ul{
+  margin: 0;
+  padding: 0; 
+}
+
+#home{
+  background-color: var(--Off-Black);
+}
+
+#home .scoialBlock{
+  background-color: var(--Dark-Grey);
+}
+
+#home .scoialBlock .title p{
+  color: var(--Green);
+}
+
+#home .scoialBlock p{
+  font-size: var(--Font-size);
+}
+
+.btn-main{
+  background-color: var(--Grey);
+  transition: all ease 1s;
+}
+
+.btn-main:hover{
+  background-color: var(--Green);
+}
+
+.btn-main a{
+  font-size: var(--Font-size);
+  transition: color ease 1s;
+}
+
+.btn-main:hover a{
+  color: var(--Off-Black);
+}
+
+.sm-txt-wrap{
+  white-space: nowrap;
+}
